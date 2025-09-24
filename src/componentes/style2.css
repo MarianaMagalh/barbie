@@ -2,3 +2,63 @@
     margin: 0px;
     padding: 0px;
 }
+
+@font-face {
+    font-family: 'Pharmount';
+    src: url(../assets/fonts/pharmount/Pharmount_PersonalUseOnly.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Motena Golden';
+    src: url(../assets/fonts/motena_golden/MotenaGolden-Reguler.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Pavonine';
+    src: url(../assets/fonts/pavonine/Pavonine.ttf) format(truetype);
+}
+
+.organizacao{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section{
+    position:relative;
+    z-index: 11;
+    top: 100%;
+    display: flex;
+    padding: 5%;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 43%;
+    height: auto;
+
+    .bigTitulo2{
+        font-family: 'Motena Golden';
+        font-size: 50px;
+        color: #af0046;
+        font-weight: 500;
+        width: 100%;
+        text-align: left;
+    }
+
+    .titulo{
+        width: 100%;
+        font-family: 'Motena Golden';
+        font-size: 40px;
+        color: #da407d;
+        font-weight: 500;
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .infos{
+        font-family: 'Pavonine';
+        font-size: 25px;
+        text-align: justify;
+        margin-top: 20px;
+    }
+}

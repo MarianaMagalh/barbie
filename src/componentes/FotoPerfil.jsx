@@ -4,7 +4,7 @@ export default function FotoProfile(){
     return(
         <>
         <div class="fundoPerfil">
-            <h1>H</h1><p class="conTitulo">ello!</p>
+            <h1 class="bigH">H</h1><p class="conTitulo">ello!</p>
             <h2>Eu sou a</h2>
             <h3>Barbie Millicent</h3>
             <p class="pequenoTexto">
@@ -15,7 +15,7 @@ export default function FotoProfile(){
         <div class="card1"></div>
         <figure class='portaFoto'>
             <img 
-                src="https://i.pinimg.com/736x/b7/f2/12/b7f212110c0fe25a08795e60a576b0f6.jpg" 
+                src="https://i.pinimg.com/736x/bf/b2/8c/bfb28c85616232fbeb4c9052c2202d59.jpg" 
                 alt="" />
         </figure>
         </>

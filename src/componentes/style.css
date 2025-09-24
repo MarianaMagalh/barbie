@@ -23,8 +23,6 @@
     z-index: 1;
 }
 
-
-
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
@@ -39,10 +37,11 @@
     }
 }
 
+/* Não sei usar responsividade ;(*/
 .card1 {
     background-color: rgb(255, 252, 247);
     width: 300px;
-    height: 350px;
+    height: 450px;
     border-radius: 5%;
     position: relative;
     z-index: 2;
@@ -54,28 +53,28 @@
 .portaFoto {
     background-color: rgb(255, 252, 247);
     width: 300px;
-    height: 350px;
+    height: 450px;
     border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 3;
-    bottom: 650px;
+    bottom: 760px;
     left: 100px;
     border: #5c5c5c solid 2px;
     transform: rotate(-8deg);
 
     img {
         width: 285px;
-        height: 335px;
+        height: 435px;
         border-radius: 5%;
         border: #5c5c5c solid 2px;
     }
 }
 
 
-h1 {
+.bigH {
     font-family: 'Pharmount';
     font-size: 250px;
     font-weight: 500;
@@ -137,7 +136,7 @@ h3 {
 
 .pequenoTexto{
     font-family: 'Motena Golden';
-    color: rgb(34, 34, 34);
+    color: rgb(0, 0, 0);
     font-size: 30px;
     width: 700px;
     position: relative;
